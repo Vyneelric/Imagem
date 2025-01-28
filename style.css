@@ -1,0 +1,23 @@
+:root{
+    --imagem-fundo: url('./imagem/img2.jpg');
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: var(--imagem-fundo);
+}
+
+#trocar-imagem{
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
