@@ -1,5 +1,5 @@
 :root{
-    --imagem-fundo: url('./imagem/img2.jpg');
+    --imagem-fundo: url('./imagem/img1.jpg');
 }
 
 * {
@@ -13,6 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    transition: 5s;
     background-image: var(--imagem-fundo);
 }
 
